@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    color: #0ef;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url("home.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color: #0ef;
+    justify-content: center;
+    cursor: pointer;
+}
+main{
+    font-size: 20px;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+button{
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #0ef;
+    margin-top: 20px;
+    height: 40px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+nav ul li:hover{
+    transform: scale(1.1); 
+}
+.ficons i{
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    cursor: pointer;
+}
+.insta{
+    position: absolute;
+    bottom: 34px;
+    left: 43%;
+    cursor: pointer;
+}
+.twitter{
+    position: absolute;
+    bottom: 34px;
+    left: 46%;
+    cursor: pointer;  
+}
+.linkedin{
+    position: absolute;
+    bottom: 34px;
+    left: 49%;
+    cursor: pointer; 
+}
+.ficons i:hover{
+    transform: scale(1.1);
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.twitter:hover{
+    transform: scale(1.1);
+}
+.insta:hover{
+    transform: scale(1.1);
+}
